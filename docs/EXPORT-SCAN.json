@@ -1,0 +1,745 @@
+{
+  "date": "2026-10-08",
+  "scope": "All files in this source export; original Git history and runtime data are excluded.",
+  "scanner": "Offline credential signatures, assignment patterns, high-entropy quoted literals, privacy patterns, keyword review, binary readable strings, and image metadata inspection.",
+  "files_scanned": 121,
+  "text_files": 100,
+  "binary_assets": [
+    "public/favicon.png",
+    "src/assets/bookmarks/knot.png",
+    "src/assets/bookmarks/pixel-v2.png",
+    "src/assets/bookmarks/whale.png",
+    "src-tauri/icons/128x128.png",
+    "src-tauri/icons/128x128@2x.png",
+    "src-tauri/icons/32x32.png",
+    "src-tauri/icons/64x64.png",
+    "src-tauri/icons/icon.icns",
+    "src-tauri/icons/icon.ico",
+    "src-tauri/icons/icon.png",
+    "src-tauri/icons/Square107x107Logo.png",
+    "src-tauri/icons/Square142x142Logo.png",
+    "src-tauri/icons/Square150x150Logo.png",
+    "src-tauri/icons/Square284x284Logo.png",
+    "src-tauri/icons/Square30x30Logo.png",
+    "src-tauri/icons/Square310x310Logo.png",
+    "src-tauri/icons/Square44x44Logo.png",
+    "src-tauri/icons/Square71x71Logo.png",
+    "src-tauri/icons/Square89x89Logo.png",
+    "src-tauri/icons/StoreLogo.png"
+  ],
+  "unresolved_credentials": 0,
+  "unresolved_personal_identifiers": 0,
+  "reviewed_false_positives": [
+    "Public Win32 Cargo feature name",
+    "App icon filename containing @"
+  ],
+  "excluded_categories": [
+    "Original .git history",
+    "Personal notes and managed files",
+    "Desktop screenshots and source reference screenshots",
+    "Runtime/recovery logs and backups",
+    "Dependencies and build outputs",
+    "Local debug configurations and editor settings",
+    "Compiled executable files"
+  ],
+  "image_metadata": [
+    {
+      "file": "public/favicon.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src/assets/bookmarks/knot.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src/assets/bookmarks/pixel-v2.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src/assets/bookmarks/whale.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src-tauri/icons/128x128.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src-tauri/icons/128x128@2x.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src-tauri/icons/32x32.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src-tauri/icons/64x64.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src-tauri/icons/icon.icns",
+      "metadata_fields": [
+        "sizes"
+      ]
+    },
+    {
+      "file": "src-tauri/icons/icon.ico",
+      "metadata_fields": [
+        "sizes"
+      ]
+    },
+    {
+      "file": "src-tauri/icons/icon.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src-tauri/icons/Square107x107Logo.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src-tauri/icons/Square142x142Logo.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src-tauri/icons/Square150x150Logo.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src-tauri/icons/Square284x284Logo.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src-tauri/icons/Square30x30Logo.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src-tauri/icons/Square310x310Logo.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src-tauri/icons/Square44x44Logo.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src-tauri/icons/Square71x71Logo.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src-tauri/icons/Square89x89Logo.png",
+      "metadata_fields": []
+    },
+    {
+      "file": "src-tauri/icons/StoreLogo.png",
+      "metadata_fields": []
+    }
+  ],
+  "manifest": [
+    {
+      "file": ".gitignore",
+      "bytes": 982,
+      "sha256": "dcdfff61662426d2f67ee3cf3a3e4a652cd8bf1b710d20471b3eed192f6e3204"
+    },
+    {
+      "file": "docs/ARCHITECTURE.md",
+      "bytes": 7104,
+      "sha256": "6f16ca7c962e26a78912e925ce55440b2aee803b13961e80740921f1ee8806ed"
+    },
+    {
+      "file": "docs/GIT-EXPORT.md",
+      "bytes": 2008,
+      "sha256": "a1e4f4f8ffe86efc84f015bd04600a25fcb263553f704bf6e79024e20816481f"
+    },
+    {
+      "file": "index.html",
+      "bytes": 377,
+      "sha256": "2111fb14659a38c0b353909bbfbb793f1b695dfdc76fdb7b636bc84520560b9f"
+    },
+    {
+      "file": "package.json",
+      "bytes": 870,
+      "sha256": "d3ba10d2f049d639872b33a553fc0c36b61451fa3d740c574d70a876774e548a"
+    },
+    {
+      "file": "playwright.config.ts",
+      "bytes": 331,
+      "sha256": "0280252e00a15864d40381cc9d1106a3140fbe42d061f78ef5584a9983500d41"
+    },
+    {
+      "file": "pnpm-lock.yaml",
+      "bytes": 35300,
+      "sha256": "44b43e32e1667de3b4d8ef8929268086cb72e39c1153ca7ff7cd618307d41957"
+    },
+    {
+      "file": "public/favicon.png",
+      "bytes": 1857,
+      "sha256": "9e069d7e63b24c569f5625e283412c7f3c92d7462c68dfed09f1c38827635dcd"
+    },
+    {
+      "file": "public/tauri.svg",
+      "bytes": 2605,
+      "sha256": "3f32698a9cb64f4d06d4df89ecb903418347589a17d297208a7f68741a8b5672"
+    },
+    {
+      "file": "public/vite.svg",
+      "bytes": 1497,
+      "sha256": "4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb"
+    },
+    {
+      "file": "QUICKSTART.md",
+      "bytes": 2074,
+      "sha256": "23c87bf8d0e78fcbb11d7b47beb329e652e6856616c8b1d1a846e671fefa6935"
+    },
+    {
+      "file": "README.md",
+      "bytes": 700,
+      "sha256": "bf5e1324917f805a83a75114db4f3f92e50fa74858a3ee3bcef1ec4ba9d605bc"
+    },
+    {
+      "file": "src/App.css",
+      "bytes": 19721,
+      "sha256": "9be4ca94fb86d87bbc976619d730bda5b677d9fe092de6617756882c18290da0"
+    },
+    {
+      "file": "src/App.tsx",
+      "bytes": 30814,
+      "sha256": "d07e1df167b5d1a51955edbe478d6300d4694263456103e660ea5d38a76dd96a"
+    },
+    {
+      "file": "src/assets/bookmarks/knot.png",
+      "bytes": 653980,
+      "sha256": "14577f7223d07fcbfc58494d71163577ddbfd31258fb08f01ab46fa524daf82f"
+    },
+    {
+      "file": "src/assets/bookmarks/pixel-v2-prompt.md",
+      "bytes": 1986,
+      "sha256": "53ac756e51e3f46d77b480df1bbaaa1f183905d6b41277ad175e97abf4cbebf5"
+    },
+    {
+      "file": "src/assets/bookmarks/pixel-v2.png",
+      "bytes": 815876,
+      "sha256": "135afc483b6152e1a389b71b3ffd674439e5e258efe48f2701512f65830757f4"
+    },
+    {
+      "file": "src/assets/bookmarks/README.md",
+      "bytes": 2632,
+      "sha256": "ff6b781fd213cfe11ebb4dee181dee0a063f6badf2d97cb9ab7d00345c20e952"
+    },
+    {
+      "file": "src/assets/bookmarks/whale.png",
+      "bytes": 1573139,
+      "sha256": "823f6a815b0315155dd0158318e684945c127a7e0a529f6673ddf9570abd5646"
+    },
+    {
+      "file": "src/assets/react.svg",
+      "bytes": 4126,
+      "sha256": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5"
+    },
+    {
+      "file": "src/bookmark-picker.tsx",
+      "bytes": 1798,
+      "sha256": "50a457ebf45e1428e81f1235d187a8f3230c1afb1c85a6bc660430230f2451fb"
+    },
+    {
+      "file": "src/bookmark-styles.ts",
+      "bytes": 1540,
+      "sha256": "70e7956022abe5d2cf3bb9c3d62dd0406d88fa09e0b74ba3047ad89735eb7d95"
+    },
+    {
+      "file": "src/bookmark.tsx",
+      "bytes": 3557,
+      "sha256": "4ccb2d654658381cec967653e2f690c039bdde58e60af869e15b064560d872fb"
+    },
+    {
+      "file": "src/collision-model.test.ts",
+      "bytes": 6795,
+      "sha256": "54277978d96d88b25c24039e025c17b5bb00e1604018a1f05150d2d6190faf66"
+    },
+    {
+      "file": "src/collision-model.ts",
+      "bytes": 25870,
+      "sha256": "f41a6c6e6edd01704b4a679b91210dff9f4a5c94c34d66aa2a1fbe5f7be45632"
+    },
+    {
+      "file": "src/collision-overlay.tsx",
+      "bytes": 8226,
+      "sha256": "77086f6b7b4dccaf81710973766bcb6d299570d79590f9135fba742c4d25c14c"
+    },
+    {
+      "file": "src/cut-overlay.tsx",
+      "bytes": 4469,
+      "sha256": "125f203b072339f8b1c4e297545808c0f82d2361a42fa66aa526771c29e98694"
+    },
+    {
+      "file": "src/file-presentation.test.ts",
+      "bytes": 1380,
+      "sha256": "d2080d5fb23f407681d3e522c5e07651e3f93fe53df798829c4291cea68a7bd1"
+    },
+    {
+      "file": "src/file-presentation.ts",
+      "bytes": 1744,
+      "sha256": "3ee6889c9bede4045b2dc79bf4bb0a3160878a83bd38c8b54de70e94b4a50015"
+    },
+    {
+      "file": "src/file-tile.tsx",
+      "bytes": 2476,
+      "sha256": "53cf624bc8bcdb19558475fbf38bbf761de7d8a1af33e15b8e30e21e755fde11"
+    },
+    {
+      "file": "src/host.ts",
+      "bytes": 6612,
+      "sha256": "e1f91e3c9568fe76224c469b39f8d5a0bfc993d839b09d012fd11b66d796d52e"
+    },
+    {
+      "file": "src/icon-image.ts",
+      "bytes": 3209,
+      "sha256": "66a21fc0b40c3da6b2804b1b1d6dc93a714f8da0a0e22a2d6e127a60ca0e3b52"
+    },
+    {
+      "file": "src/ink.test.ts",
+      "bytes": 1545,
+      "sha256": "7c010d877352a2ff115c561fbcbbfbf21a32ea634b1913a3f912eca5765afb71"
+    },
+    {
+      "file": "src/ink.ts",
+      "bytes": 2728,
+      "sha256": "36df9dade75cf409fd29e742d1e6128341c2cf4cf997f40c88c4668d7b815d09"
+    },
+    {
+      "file": "src/main.tsx",
+      "bytes": 500,
+      "sha256": "9bb883213ceeaa896ea9ff6f4218651739eed55e342fdf535e8fab88498ce288"
+    },
+    {
+      "file": "src/model.test.ts",
+      "bytes": 2700,
+      "sha256": "5e3edf32b5fd6e0bc015778ef2044531358b3be85d7f86f98bbf27e199106c68"
+    },
+    {
+      "file": "src/model.ts",
+      "bytes": 5163,
+      "sha256": "96fd2eab1ee14081f2efdcfa63927709eabb4feace00562bd6996c4fe6a2a389"
+    },
+    {
+      "file": "src/paper-editor.tsx",
+      "bytes": 42415,
+      "sha256": "153e8388bf233fc5f8dc9ada2a1045a044cefbcb1256e9eb47069ded4f568d51"
+    },
+    {
+      "file": "src/paper-model.test.ts",
+      "bytes": 4911,
+      "sha256": "3f03a2758010e449bbbf49d86787a42f68c1be631d5917d4e3a0293895b165ec"
+    },
+    {
+      "file": "src/paper-model.ts",
+      "bytes": 7236,
+      "sha256": "12467b5c073504e66ac76b82aa46b8b1f8b28925fe35c497114956554714d7cb"
+    },
+    {
+      "file": "src/paper-scroll.test.ts",
+      "bytes": 1578,
+      "sha256": "27231f735f107c668f33be875fa806d4cac67e7e5be89a128513b7b495691f25"
+    },
+    {
+      "file": "src/paper-scroll.ts",
+      "bytes": 1274,
+      "sha256": "fc06d81975ce7fbeb582eb23b93c2cd09ff5d709cf6de7a716ec344c79692302"
+    },
+    {
+      "file": "src/paper-selection.test.ts",
+      "bytes": 4670,
+      "sha256": "8f34e849a16ec7a7e88e6dcab5f792f783ea51d3829d09fb623343e8c9f050f0"
+    },
+    {
+      "file": "src/paper-selection.ts",
+      "bytes": 9488,
+      "sha256": "7aaf23fc1847799be6500178c1d4e960fcf3ad7e43d0ce5898b89153e4b22be8"
+    },
+    {
+      "file": "src/preview.tsx",
+      "bytes": 2781,
+      "sha256": "0b816317b047b33dc0a58cc04f98ad907c0e98be14e31e140f2688f44133ed6e"
+    },
+    {
+      "file": "src/text-eraser.test.ts",
+      "bytes": 957,
+      "sha256": "f339f116b7f91a796abec1077029cf33415fde1815dca1cd6eeae259237fd7f3"
+    },
+    {
+      "file": "src/text-eraser.ts",
+      "bytes": 5496,
+      "sha256": "df68501786f9af5997724437a7dc379e842fd7a9fa4b187e60a00fd5892f5081"
+    },
+    {
+      "file": "src/vite-env.d.ts",
+      "bytes": 39,
+      "sha256": "424faf9241dd699dda995b367ed36665732da1e6ec1f33b2fd40394488ecac92"
+    },
+    {
+      "file": "src-tauri/.cargo/config.toml",
+      "bytes": 161,
+      "sha256": "9ac206b2e6ad667dd9a18370693466e41eed36119fcaeb68ea3cdb267fe7d151"
+    },
+    {
+      "file": "src-tauri/.gitignore",
+      "bytes": 173,
+      "sha256": "e1b11c0407131ad35a1f11d8ec2545c53de147a76f05e264e5b500a14b977332"
+    },
+    {
+      "file": "src-tauri/build.rs",
+      "bytes": 175,
+      "sha256": "587a3712a3e51134e129ac02be4d10ec3b015c394d4e44b1d33a161d3d7d90c3"
+    },
+    {
+      "file": "src-tauri/capabilities/default.json",
+      "bytes": 677,
+      "sha256": "3df37394dd4cb153ea4c4cdbf5cf2980e48392256affe6f6f7bbcd9985be2d9b"
+    },
+    {
+      "file": "src-tauri/Cargo.lock",
+      "bytes": 121624,
+      "sha256": "ad1449d977641c282772e519d43fdac6192d6b1c64a38d969a4cbf165e0ab134"
+    },
+    {
+      "file": "src-tauri/Cargo.toml",
+      "bytes": 1548,
+      "sha256": "37cde51adfffc85b36ab7fc560f012263025616c1b6730ef5d9e2c12af23ea67"
+    },
+    {
+      "file": "src-tauri/icons/128x128.png",
+      "bytes": 13583,
+      "sha256": "311ecde857dbe67fcd7df1bcc48f094518286777a290bf9e4492d9c09d20bb7f"
+    },
+    {
+      "file": "src-tauri/icons/128x128@2x.png",
+      "bytes": 42193,
+      "sha256": "467be28d24f5b20614ac3b787ba2d42f57524ad848f9e216bd0ee1988146cd32"
+    },
+    {
+      "file": "src-tauri/icons/32x32.png",
+      "bytes": 1857,
+      "sha256": "9e069d7e63b24c569f5625e283412c7f3c92d7462c68dfed09f1c38827635dcd"
+    },
+    {
+      "file": "src-tauri/icons/64x64.png",
+      "bytes": 4845,
+      "sha256": "a995482f469186c79c902ddd193308412eafa844890240903541e93eea75f95b"
+    },
+    {
+      "file": "src-tauri/icons/icon.icns",
+      "bytes": 1087591,
+      "sha256": "cdff97cff69a52db56af8a450904babbf6ed52fe187ffa5f9e0a1f00aa48f5d9"
+    },
+    {
+      "file": "src-tauri/icons/icon.ico",
+      "bytes": 54334,
+      "sha256": "8b24e65461fe635b1321c558a246f0cdfb000a1fca21f26de21d7ab2adea8da5"
+    },
+    {
+      "file": "src-tauri/icons/icon.png",
+      "bytes": 162509,
+      "sha256": "0314be0759051718eff08cbcc6619db1077dd017e055e84d7c73448216c85f85"
+    },
+    {
+      "file": "src-tauri/icons/Square107x107Logo.png",
+      "bytes": 10371,
+      "sha256": "95baf12916422939909f42ebfe2812b65c5c67283c97f59020ed1cc068f8c0cd"
+    },
+    {
+      "file": "src-tauri/icons/Square142x142Logo.png",
+      "bytes": 15944,
+      "sha256": "46f9939bbae7e0f10df60741c3c1b7ce643cf0e25185b52c7fa1b3679f5e3649"
+    },
+    {
+      "file": "src-tauri/icons/Square150x150Logo.png",
+      "bytes": 17313,
+      "sha256": "3f8bd400e7b377c136c903c726632eeb62362cabd10c19a9dd4ea04a9d895371"
+    },
+    {
+      "file": "src-tauri/icons/Square284x284Logo.png",
+      "bytes": 50752,
+      "sha256": "9e0080e8d118f6bbf301ca44b5d21eb3e7fbcfcf2febfc1a3be92ec0e9f40780"
+    },
+    {
+      "file": "src-tauri/icons/Square30x30Logo.png",
+      "bytes": 1640,
+      "sha256": "bc88b8de43c5f3339a3e9c4a640ccce5e066e66175f4418a794c76dba3c9cce2"
+    },
+    {
+      "file": "src-tauri/icons/Square310x310Logo.png",
+      "bytes": 59807,
+      "sha256": "b3e90e0c341833ae59bc14021e949194a26891d754525811a20830063ba8b802"
+    },
+    {
+      "file": "src-tauri/icons/Square44x44Logo.png",
+      "bytes": 2823,
+      "sha256": "5ea13718b047880bb010045f0852862ff53523d764f761fa1b4dca1618881a1c"
+    },
+    {
+      "file": "src-tauri/icons/Square71x71Logo.png",
+      "bytes": 5600,
+      "sha256": "6180457e22676d453f4f3b84702f2518415ab38feaa7be3285d0e6ddd4b97d9e"
+    },
+    {
+      "file": "src-tauri/icons/Square89x89Logo.png",
+      "bytes": 7824,
+      "sha256": "19d5c1da0077db42df11b00a565a6f04c8e42bba4cb967b2aedf27e3db445c55"
+    },
+    {
+      "file": "src-tauri/icons/StoreLogo.png",
+      "bytes": 3344,
+      "sha256": "e9621f36b798934ddd12948fe9a99d2ef5b7443a420d19d9131f3abcc21a7e02"
+    },
+    {
+      "file": "src-tauri/src/board_ops.rs",
+      "bytes": 28063,
+      "sha256": "0a380272c6a55354d85f203974ad85659025ff7a3d043c0cf5e7a34d53ead400"
+    },
+    {
+      "file": "src-tauri/src/board_store.rs",
+      "bytes": 13023,
+      "sha256": "b6a42309110019c1c764e5792b0188a31b53ab52b8d9fe739cc6fc1bb549c915"
+    },
+    {
+      "file": "src-tauri/src/collision.rs",
+      "bytes": 36531,
+      "sha256": "7572cf91ff049c54c44290fc5a149b5e696407cb5e80e0f8e8fb49f985bd6345"
+    },
+    {
+      "file": "src-tauri/src/commands.rs",
+      "bytes": 9558,
+      "sha256": "fd16110083303c7af9b99a3249f7a6857d76205dd116dabfc8909a9ffd72c686"
+    },
+    {
+      "file": "src-tauri/src/cut.rs",
+      "bytes": 8062,
+      "sha256": "94d7278a864c6d297bc0cae825f84efd1bf7215168956c3b06b5f6c29c77d0b0"
+    },
+    {
+      "file": "src-tauri/src/desktop_clip.rs",
+      "bytes": 4233,
+      "sha256": "d31de0cfb3e4446b25f743b8e8caa0fd02e2ef8c1031aa6667ed0d9da82f3b95"
+    },
+    {
+      "file": "src-tauri/src/desktop_image.rs",
+      "bytes": 6524,
+      "sha256": "cd10ca5034aee44962f33e71d7cba1bb787ea20d5d8aadce0ee1e04ce2df0c95"
+    },
+    {
+      "file": "src-tauri/src/edge_hide.rs",
+      "bytes": 30970,
+      "sha256": "937153f978d31ba8ca5261e10c65d96663d32b3b100a3717527e21b2931be9ef"
+    },
+    {
+      "file": "src-tauri/src/file_icon.rs",
+      "bytes": 3672,
+      "sha256": "fcf763bd1c19b92abeb71502e7f0d90a2ee1b467be7d284a734f155679de6e31"
+    },
+    {
+      "file": "src-tauri/src/icon_engine.rs",
+      "bytes": 17121,
+      "sha256": "6265bdf28dcd8c6b35070ed7c5cc4cb8401387e1a301932e7844289c204d3faa"
+    },
+    {
+      "file": "src-tauri/src/icon_recovery.rs",
+      "bytes": 10612,
+      "sha256": "a235349c1857a51c5d63233524493d4959edbb77f87de57c590fdc24d56e6537"
+    },
+    {
+      "file": "src-tauri/src/lib.rs",
+      "bytes": 8347,
+      "sha256": "976d5c691f85cebba0a34a42b09943285b00bd426f14d16775b1f374b33dc53a"
+    },
+    {
+      "file": "src-tauri/src/main.rs",
+      "bytes": 514,
+      "sha256": "46d769308744cece0e49ade59508fa6ecb611e69101400a9f1f249bb47748495"
+    },
+    {
+      "file": "src-tauri/src/native_chrome.rs",
+      "bytes": 2354,
+      "sha256": "c8fb19389ffd32da6673db018a851b70c244529bc5a543cf383a72ef846ad662"
+    },
+    {
+      "file": "src-tauri/src/paper_state.rs",
+      "bytes": 4460,
+      "sha256": "911b1317f7b7121ef156c90d8addf5a55d89d13fd97a30e3edadc864189bb774"
+    },
+    {
+      "file": "src-tauri/src/window.rs",
+      "bytes": 19328,
+      "sha256": "b9c61482db7f98a3e7c6578c04cea18708769c1110ecd1ac40a8b8ff83990c43"
+    },
+    {
+      "file": "src-tauri/tauri.conf.json",
+      "bytes": 1143,
+      "sha256": "125c8262786d54e3233d1cf1b98563bb90f2335d2b784a282d0676434630d146"
+    },
+    {
+      "file": "Start-DesktopBoard.cmd",
+      "bytes": 139,
+      "sha256": "d661b61a1d975b570a6a55485587f71b29309eff795f6bc7cb30ce45249123cf"
+    },
+    {
+      "file": "Start-DesktopBoard.ps1",
+      "bytes": 9025,
+      "sha256": "bd660ac25958c9f26fcb75d9d88770f1c9e88424011556531f1fd89c8f6b7f29"
+    },
+    {
+      "file": "tests/append-wrap.spec.ts",
+      "bytes": 2387,
+      "sha256": "d0a2229ba61a1ab647b51088423c255e0c59e797849ea3dde1341486af641a9e"
+    },
+    {
+      "file": "tests/benchmark-collision.mjs",
+      "bytes": 1411,
+      "sha256": "40ea7cb40260019e5e671e168a93fc00149af2ef2637bd49907de096675985b4"
+    },
+    {
+      "file": "tests/board.spec.ts",
+      "bytes": 42439,
+      "sha256": "9792c1195625628a69b995d18f217e8de971dd030cd26847986bf6204bee520e"
+    },
+    {
+      "file": "tests/bookmark.spec.ts",
+      "bytes": 6486,
+      "sha256": "cca9c3a8c2fced4be37c9a44fbe6ec414236b340e3a797994ba83cfd9504c498"
+    },
+    {
+      "file": "tests/collision-images.spec.ts",
+      "bytes": 2871,
+      "sha256": "9f74f435400a97080fe99ec4ac5ce341db7733b312d2b6d615ba7dda555b3cf2"
+    },
+    {
+      "file": "tests/cut-cancel-input.ps1",
+      "bytes": 2635,
+      "sha256": "4e41d49e4f8a327a98956a935ad875158636f5b6d220e90a02851ed8b271cf74"
+    },
+    {
+      "file": "tests/desktop-presentation.ps1",
+      "bytes": 4975,
+      "sha256": "599b5fab0dd53494654327973fa0bcc86dea25cc0eaba356831867cc2685ebb7"
+    },
+    {
+      "file": "tests/documents.spec.ts",
+      "bytes": 5389,
+      "sha256": "a1a7a61690970afe64a52105b162b338cd092bc9ad81f627e7ebf84192b6c011"
+    },
+    {
+      "file": "tests/fixtures/preview.pdf",
+      "bytes": 600,
+      "sha256": "7e490d1a796163c08570e9451c1e516035da008be46c5baa7e865b896c360f59"
+    },
+    {
+      "file": "tests/native-board-ops.mjs",
+      "bytes": 7170,
+      "sha256": "36d029a1398674080247b7685bf951c6d00c8f5f96c31628680edf8bef9c98d1"
+    },
+    {
+      "file": "tests/native-bookmark-layout.mjs",
+      "bytes": 6160,
+      "sha256": "cb3908c468185b8e375f0e731aee2d1266f92c22f320875c1afb3ecac13f9db5"
+    },
+    {
+      "file": "tests/native-bookmark-pixels.mjs",
+      "bytes": 10618,
+      "sha256": "cac872a1180dcfcf26c45d999e65348d0bfb5bc27f299f779e3f2b5c74c92ea9"
+    },
+    {
+      "file": "tests/native-bookmark.mjs",
+      "bytes": 19580,
+      "sha256": "bf7c19a4610c2078760bc00738dcdba5ca5ce15b9d34a3adf5336ed4995afbbd"
+    },
+    {
+      "file": "tests/native-centering.mjs",
+      "bytes": 4142,
+      "sha256": "0d56f2c2cd3f7155194d6d989c325474dde5a06308496e5f1200da79d02f3705"
+    },
+    {
+      "file": "tests/native-collision.mjs",
+      "bytes": 11430,
+      "sha256": "5df05a0e020ccdb0da239273f28316b8acd6289d859607f185910d7f6ca56674"
+    },
+    {
+      "file": "tests/native-cut-cancel.mjs",
+      "bytes": 3147,
+      "sha256": "8d14e4f2cfbda8beaf48016f11ac23f52861af32aa3f6ac4335d7b966947133d"
+    },
+    {
+      "file": "tests/native-edge-hide.mjs",
+      "bytes": 115,
+      "sha256": "a5d9da9898bf2193f2ac876ad7972d7cfbd2cb6f0b62d40b2a76b7006ac14bd2"
+    },
+    {
+      "file": "tests/native-interaction.mjs",
+      "bytes": 7860,
+      "sha256": "f55882abb9a480f8a8956318076833c781003565dacd6623b444d17743910f1c"
+    },
+    {
+      "file": "tests/native-marquee.mjs",
+      "bytes": 8971,
+      "sha256": "e2222aeec3076d18801dfab1bd6f6f502dca086a1ef6928569c0b83c3fd7ff1b"
+    },
+    {
+      "file": "tests/native-paper-tools.mjs",
+      "bytes": 7673,
+      "sha256": "1f35de61f0ba2c2ec2335c6be239113fdd8842b925d3cd3ee061725f2afe66f4"
+    },
+    {
+      "file": "tests/native-presentation.mjs",
+      "bytes": 10220,
+      "sha256": "9fd89fe4275e70dc2b7ef0af750243c6b5c36f3f51a98d68d34ab970305d2802"
+    },
+    {
+      "file": "tests/native-release.mjs",
+      "bytes": 6443,
+      "sha256": "ddbb219c85e04929041b7345c8acc0a9d592dc8fe113c3e840be9f7ba97c6306"
+    },
+    {
+      "file": "tests/native-resize.mjs",
+      "bytes": 9018,
+      "sha256": "1152549bc69cbcae5dffe897f9aee9433af1f220eaec69e8d0330eb58bec05c9"
+    },
+    {
+      "file": "tests/native-settings.mjs",
+      "bytes": 10601,
+      "sha256": "9096042b59c2ae99367a8ce4114cc98d3d91e35620c0a72507a1a76708d12fdb"
+    },
+    {
+      "file": "tests/quit-test.mjs",
+      "bytes": 712,
+      "sha256": "f3a67455fdc64dae9d7b57df57b9fab5bc923c49134dc7cd7c0ea54b02a03541"
+    },
+    {
+      "file": "tests/resize.spec.ts",
+      "bytes": 8798,
+      "sha256": "849e7345f79f107ab77dfdb1f4ecc2bc93f811a41193b3b97364b96ada0dfbd4"
+    },
+    {
+      "file": "tsconfig.json",
+      "bytes": 628,
+      "sha256": "bb39ff91fe6d7e3f5382175f6197328fa41bc48520d13596963e8d2f2e817396"
+    },
+    {
+      "file": "tsconfig.node.json",
+      "bytes": 223,
+      "sha256": "6ec602b8aa146888c76f0b41ca3515f91f95919f6e6417a4670decaba8fcb982"
+    },
+    {
+      "file": "vite.config.ts",
+      "bytes": 891,
+      "sha256": "647d31427695725417578522e1734643cf3311d0ebda51e2d4c2f9887269a844"
+    },
+    {
+      "file": "vitest.config.ts",
+      "bytes": 120,
+      "sha256": "f8012a9ae34afd896db23ef7de41089fa4f1b7ed51997d68a65e026691c3f5a1"
+    }
+  ],
+  "manifest_excludes_report_itself": true,
+  "ignore_rule_checks": 27,
+  "all_exported_files_are_git_visible": true,
+  "updates": [
+    "2026-10-08: line-end append fix and regression coverage synchronized; rescanned without unresolved matches.",
+    "2026-10-08: Added friend-friendly startup CMD, dependency/bootstrap PowerShell script and QUICKSTART; preserved user README edits/deletion, regenerated the manifest and rescanned all actual export files. Startup checks were read-only or mocked; fresh-machine installation is not yet verified.",
+    "2026-10-08: Replaced application ICO/ICNS/PNG and browser favicon with supplied transparent pink note artwork; regenerated manifest and scanned all source-export files. Windows build script now tracks icon.ico so incremental builds regenerate executable icon resources."
+  ]
+}
